@@ -1,0 +1,40 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="50px"
+    android:background="@drawable/backbg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add post"
+        android:background="@drawable/buttonbg"
+        android:textColor="#FCFDFD"
+        android:layout_margin="20px"
+        android:id="@+id/add"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search post"
+        android:background="@drawable/buttonbg"
+        android:textColor="#FCFDFD"
+        android:layout_margin="20px"
+        android:id="@+id/search"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete post"
+        android:background="@drawable/buttonbg"
+        android:textColor="#FCFDFD"
+        android:layout_margin="20px"
+        android:id="@+id/delete"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:background="@drawable/buttonbg"
+        android:textColor="#FCFDFD"
+        android:layout_margin="20px"
+        android:id="@+id/goback"/>
+</LinearLayout>
